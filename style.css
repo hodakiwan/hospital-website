@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* start navbar home section */
+
+.nav-home {
+    background-color: #212121;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-home a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-family: monospace;
+    font-size: 19px;
+    letter-spacing: 1px;
+
+
+}
+
+/* end navbar home section */
+
+/* start header home section */
+
+.header-home {
+    height: 530px;
+    background-image: url(../img/background1.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-home h2 {
+    color: #fff;
+    font-family: monospace;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+
+}
+
+.header-home p {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+.header-home a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #6f0f41;
+    padding: 10px 26px;
+    font-family: monospace;
+    letter-spacing: 1px;
+    margin-right: 30px;
+    border-radius: 4px;
+}
+
+.header-home a:nth-of-type(2) {
+    background-color: #2c9179;
+}
+
+/* end header home section */
+
+/* start children home section */
+
+.Children-home h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: monospace;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.Children-home hr {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: red;
+    height: 4px;
+    border: none;
+
+}
+
+.Children-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Children-content img {
+    width: 35%;
+    height: 350px;
+    margin-bottom: 70px;
+}
+
+.Children-content p {
+    width: 40%;
+    font-family: monospace;
+    font-size: 16px;
+    text-align: center;
+    line-height: 2;
+}
+
+/* end children home section */
+
+/* start about home section */
+
+.about-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #fcfcfc;
+    padding: 20px;
+}
+
+.about-content {
+    width: 35%;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #0000001c;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.about-content img {
+    width: 97%;
+    height: 350px;
+
+}
+
+.about-content p {
+    font-size: 25px;
+    font-family: monospace;
+    line-height: 0px;
+    line-height: 1.5;
+    margin-top: 12px;
+}
+
+/* end about home section */
+
+/* 
+==================================================
+==================================================
+start contactus home section and footer section
+==================================================
+==================================================
+ */
+
+/* start contactus home section */
+.contact-home , .footer-home{
+    height: 450px;
+   background-image: url(../img/glass.jpeg);
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.contact-home h2 ,.footer-home h2{ 
+    font-family: monospace;
+    font-size: 28px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.contact-home form , .footer-home form{
+    width: 80%;
+
+}
+
+.contact-home input , .contact-home textarea , .footer-home input{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 13px 20px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+}
+
+.contact-home button , .footer-home button{
+    background-color: #212121;
+    color: #fff;
+    border: none;
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    font-size: 19px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    border-radius: 4px;
+}
+
+/* end contactus home section */
+
+/* start footer home section */
+
+.footer-home{
+    height: 350px;
+    background-image: url(../img/orange\ and\ yellow.jpeg);
+}
+
+/* end footer home section */
